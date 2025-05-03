@@ -2,47 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Muda Saver | Featured Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="project-page">
-    <header>
+    <!-- Top Navigation Menu -->
+    <header class="top-nav">
         <nav>
-            <a href="index.html" class="back-home">← Back to Home</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="project-details">
-        <h1>Muda Saver</h1>
-        <p><strong>Overview:</strong> A USSD-based platform for users to track and place real-time food orders from
-            vendors. Smartphone users get location-based tracking for faster delivery and efficiency.</p>
+        <h1>Muda Saver ⏳💰</h1>
+        <p><strong>Overview:</strong> A USSD-based order and delivery coordination platform designed for real-time
+            efficiency across urban and rural Tanzania.</p>
 
         <section>
             <h2>Key Features:</h2>
             <ul>
-                <li>Real-time food order tracking (USSD + smartphone)</li>
-                <li>Location-based vendor search</li>
-                <li>Vendor and customer management system</li>
-                <li>Optimizes time for both customers and vendors</li>
+                <li>Instant order creation and delivery dispatch via mobile phone</li>
+                <li>Offline access through USSD – no internet needed</li>
+                <li>Order tracking, delivery confirmation, and alerts</li>
+                <li>Vendor dashboard with basic analytics</li>
             </ul>
         </section>
 
         <section>
             <h2>Technologies Used:</h2>
             <ul>
-                <li>USSD Gateway Integration</li>
-                <li>Mobile-Friendly Web Interface</li>
-                <li>Real-time GPS Tracking (for smartphones)</li>
-                <li>Backend Order Management System</li>
+                <li>USSD Gateway & Telco Integration (e.g. Africa's Talking)</li>
+                <li>Python / Flask for backend logic</li>
+                <li>SQLite / PostgreSQL for lightweight data storage</li>
+                <li>SMS API for real-time notifications</li>
             </ul>
         </section>
 
         <section class="project-demo">
             <h2>Project Demo:</h2>
-            <p><em>[Coming Soon!]</em> Stay tuned for a demo showcase of Muda Saver in action!</p>
+            <div class="demo-placeholder">
+                <p><em>[Coming Soon]</em> A visual walk-through will show how Muda Saver helps simplify logistics for
+                    local vendors, farmers, and boda boda riders!</p>
+                <div class="image-placeholder">Image/Mockup Placeholder</div>
+            </div>
         </section>
     </main>
 

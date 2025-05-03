@@ -1,30 +1,31 @@
-Joseph Ernest Mshana's Portfolio
+# Joseph Ernest Mshana's Portfolio 🌐
 
-Description:
--------------
-This is the official developer and innovation portfolio for Joseph Ernest Mshana, featuring selected projects, background highlights, and a light/dark theme toggle for an enhanced browsing experience.
+Welcome to my personal portfolio site! I'm Joseph — a Software Developer, Data Enthusiast, and AI Dreamer based in Tanzania. This site showcases my featured projects, skills, and contact information.
 
-Contents:
----------
-- index.html          --> Main homepage of the portfolio
-- styles.css          --> Styling for the entire portfolio
-- script.js           --> JavaScript functionality (including theme toggle)
-- muda-saver.html     --> Details page for Muda Saver project
-- tag-em.html         --> Details page for Tag-em project
-- services-soko.html  --> Details page for Services Soko project
-- README.txt          --> (this file) Basic information about project structure
+## 🌟 Featured Projects
 
-Instructions:
---------------
-- Open `index.html` in any modern browser to view the full portfolio.
-- Use the top-right toggle to switch between Light and Dark themes.
-- Navigate to project details using the "View Project" buttons.
-- Feel free to expand, customize, and deploy as your professional site!
+### 1. [Muda Saver ⏳💰](muda-saver.html)
+A USSD platform to optimize real-time orders and deliveries, empowering small businesses with offline-first logistics.
 
-Credits:
----------
-- Designed and co-created by Joseph Ernest Mshana and MOVIS (AI Collaboration, 2025).
+### 2. [Tag-em 🏷️📋](tag-em.html)
+AI-powered civic engagement tool connecting citizens' feedback with the right government departments for action.
 
-License:
----------
-Personal Use Only. © 2025 Joseph Ernest Mshana. All rights reserved.
+### 3. [Services Soko 🛒💼](services-soko.html)
+A marketplace for freelancers and subcontractors to offer and connect on services across Tanzania.
+
+## 📂 Technologies Used
+
+- HTML5 + CSS3 + JavaScript
+- Responsive Web Design
+- Dark/Light Theme Toggle
+- Placeholder Prototypes for Demos
+
+## 📞 Connect With Me
+
+- 🌐 [Linktree](https://linktr.ee/josephmshana)
+- 🐙 [GitHub](https://github.com/VA-Joseph)
+- 💼 [LinkedIn](https://www.linkedin.com/in/josephernestmshana)
+
+---
+
+© 2025 Joseph Ernest Mshana. All rights reserved.

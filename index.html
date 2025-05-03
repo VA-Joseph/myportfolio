@@ -2,49 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Joseph Ernest Mshana | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joseph Ernest Mshana | My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
 </head>
 
 <body>
-    <main>
+    <!-- Top Navigation Menu -->
+    <header class="top-nav">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="muda-saver.html">Muda Saver</a></li>
+                <li><a href="tag-em.html">Tag-em</a></li>
+                <li><a href="services-soko.html">Services Soko</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
         <!-- Hero Section -->
         <section class="hero">
-            <img src="my-photo.jpg" alt="Joseph Mshana" class="hero-photo">
+            <img src="assets/images/my-photo.jpg" alt="Joseph Mshana" class="hero-photo" />
             <h1>Hi, I'm Joseph Mshana</h1>
             <p class="tagline">Software Developer | Data Enthusiast | AI Dreamer 🤖✨</p>
-            <button id="theme-toggle">🌙</button>
+            <button id="theme-toggle" class="toggle-btn">Toggle Theme</button>
         </section>
 
         <!-- About Me Section -->
         <section class="about">
             <h2>About Me</h2>
             <p>Hello! I'm Joseph — passionate about coding, data, AI, and creating a positive impact through digital
-                innovation. I specialize in Software Development, Machine Learning, and Data Analysis. Let’s build the
-                future together!</p>
+                innovation by building digital solutions that empower communities and drive meaningful change. I
+                specialize in Software Development, Machine Learning, and Data Analysis. Explore some of my featured
+                projects below!</p>
         </section>
 
         <!-- Projects Section -->
         <section class="projects">
             <h2>Featured Projects</h2>
-            <div class="project-card">
-                <h3>Muda Saver ⏳💰</h3>
-                <p>USSD platform to optimize real-time orders and deliveries.</p>
-                <a href="muda-saver.html" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Tag-em 🏷️📋</h3>
-                <p>AI-powered civic engagement platform connecting citizens' voices to government responses.</p>
-                <a href="tag-em.html" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Services Soko 🛒💼</h3>
-                <p>Marketplace for freelancers and subcontractors to connect and collaborate on services.</p>
-                <a href="services-soko.html" class="btn">View Project</a>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Muda Saver ⏳💰</h3>
+                    <p>USSD platform to optimize real-time orders and deliveries.</p>
+                    <a href="muda-saver.html" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Tag-em 🏷️📋</h3>
+                    <p>AI-powered civic engagement platform connecting citizens' voices to government responses.</p>
+                    <a href="tag-em.html" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Services Soko 🛒💼</h3>
+                    <p>Marketplace for freelancers and subcontractors to connect and collaborate on services.</p>
+                    <a href="services-soko.html" class="btn">View Project</a>
+                </div>
             </div>
         </section>
 
@@ -65,13 +79,9 @@
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
         <p>© 2025 Joseph Ernest Mshana. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
-
 </body>
 
 </html>
