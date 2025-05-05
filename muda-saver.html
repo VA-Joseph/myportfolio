@@ -1,5 +1,3 @@
-See the changes I made in the class="nav-menu" in the Muda Saver file, here below (I've done the same to Tag-em and
-Services Soko):
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,51 +6,83 @@ Services Soko):
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Muda Saver | Featured Project</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <style>
+        /* Quick fixes directly here — ideally move these to style.css */
+
+        /* Align toggle button to top right and outside nav bar */
+        .theme-container {
+            text-align: right;
+            padding: 1rem 2rem 0 0;
+        }
+
+        /* Tidy list alignment */
+        .about ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .about ul li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
 
 <body class="project-page">
     <!-- Top Navigation Menu -->
     <header class="top-nav">
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="index.html" target="_blank">Home</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="nav-left"></div> <!-- Just a spacer -->
+            <div class="nav-center">
+                <a href="index.html" target="_blank" class="home-link">Home</a>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" class="toggle-btn">🌞</button>
+            </div>
         </nav>
     </header>
 
-    <main class="project-details">
-        <h1>Muda Saver ⏳💰</h1>
-        <p><strong>Overview:</strong> A USSD-based order and delivery coordination platform designed for real-time
-            efficiency across urban and rural Tanzania.</p>
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h1>Muda Saver ⏳💰</h1>
+                <p><strong>Overview:</strong> A USSD-based order and delivery coordination platform designed for
+                    real-time efficiency across urban and rural Tanzania.</p>
+            </section>
 
-        <section>
-            <h2>Key Features:</h2>
-            <ul>
-                <li>Instant order creation and delivery dispatch via mobile phone</li>
-                <li>Offline access through USSD – no internet needed</li>
-                <li>Order tracking, delivery confirmation, and alerts</li>
-                <li>Vendor dashboard with basic analytics</li>
-            </ul>
-        </section>
+            <section class="about">
+                <h2>Key Features:</h2>
+                <ul>
+                    <li>Instant order creation and delivery dispatch via mobile phone</li>
+                    <li>Offline access through USSD – no internet needed</li>
+                    <li>Order tracking, delivery confirmation, and alerts</li>
+                    <li>Vendor dashboard with basic analytics</li>
+                </ul>
+            </section>
 
-        <section>
-            <h2>Technologies Used:</h2>
-            <ul>
-                <li>USSD Gateway & Telco Integration (e.g. Africa's Talking)</li>
-                <li>Python / Flask for backend logic</li>
-                <li>SQLite / PostgreSQL for lightweight data storage</li>
-                <li>SMS API for real-time notifications</li>
-            </ul>
-        </section>
+            <section class="about">
+                <h2>Technologies Used:</h2>
+                <ul>
+                    <li>USSD Gateway & Telco Integration (e.g. Africa's Talking)</li>
+                    <li>Python / Flask for backend logic</li>
+                    <li>SQLite / PostgreSQL for lightweight data storage</li>
+                    <li>SMS API for real-time notifications</li>
+                </ul>
+            </section>
 
-        <section class="project-demo">
-            <h2>Project Demo:</h2>
-            <div class="demo-placeholder">
-                <p><em>[Coming Soon]</em> A visual walk-through will show how Muda Saver helps simplify logistics for
-                    local vendors, farmers, and boda boda riders!</p>
-                <div class="image-placeholder">Image/Mockup Placeholder</div>
-            </div>
-        </section>
+            <section class="projects">
+                <h2>Project Demo:</h2>
+                <div class="demo-placeholder">
+                    <p><em>[Coming Soon]</em> A visual walk-through will show how Muda Saver helps simplify logistics
+                        for
+                        local vendors, farmers, and boda boda riders!</p>
+                    <div class="image-placeholder"><em>[Image/Mockup Placeholder]</em></div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
